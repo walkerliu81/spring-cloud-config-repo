@@ -1,0 +1,15 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: microservice.product.service
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
+    username: msecom
+    password: msecom
+    initialize: false
