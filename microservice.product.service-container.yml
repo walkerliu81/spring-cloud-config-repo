@@ -8,3 +8,8 @@ spring:
     password: ${DATABASE_PASSWORD}
     initialize: true
     initialization-mode: always
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-eureka:8761/eureka/
