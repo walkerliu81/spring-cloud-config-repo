@@ -3,9 +3,9 @@ spring:
     show-sql: true
   datasource:
     driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}?useSSL=false
-    username: ${DATABASE_USER}
-    password: ${DATABASE_PASSWORD}
+    url: jdbc:mysql://mysql-product:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
+    username: msecom
+    password: msecom
     initialize: true
     initialization-mode: always
 
