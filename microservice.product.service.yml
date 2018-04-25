@@ -9,7 +9,7 @@ spring:
       ddl-auto: update
   datasource:
     driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
+    url: jdbc:mysql://10.32.154.136:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
     username: msecom
     password: msecom
     initialize: false
