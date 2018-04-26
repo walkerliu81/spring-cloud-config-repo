@@ -6,8 +6,6 @@ spring:
     url: jdbc:mysql://10.32.154.136:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
     username: msecom
     password: msecom
-    initialize: true
-    initialization-mode: always
 
 eureka:
   client:
