@@ -34,3 +34,4 @@ logging:
     org.hibernate.type.descriptor.sql:
       BasicBinder: TRACE
       BasicExtractor: TRACE
+    com.bdtv: DEBUG
