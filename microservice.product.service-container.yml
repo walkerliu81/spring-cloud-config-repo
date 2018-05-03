@@ -5,7 +5,7 @@ spring:
     show-sql: true
   datasource:
     driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.32.154.136:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
+    url: jdbc:mysql://mysql-product:3306/msproduct?useSSL=false
     username: msecom
     password: msecom
 
