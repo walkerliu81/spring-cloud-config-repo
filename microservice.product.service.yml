@@ -18,7 +18,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream, info, health
+        include: *
 
 logging:
   level:
@@ -26,6 +26,7 @@ logging:
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    com.bdtv: DEBUG
 
 eureka:
   client:
