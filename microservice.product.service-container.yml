@@ -1,15 +1,17 @@
+server:
+  port: 8002
 spring:
   jpa:
     show-sql: true
   datasource:
     driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://mysql-product:3306/msproduct?createDatabaseIfNotExist=true&useUnicode=true&autoReconnect=true
+    url: jdbc:mysql://mysql-product:3306/msproduct?useSSL=false
     username: msecom
     password: msecom
-    initialize: true
-    initialization-mode: always
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-eureka:8761/eureka/
+
+mockEnabled: true
