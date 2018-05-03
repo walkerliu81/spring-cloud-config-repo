@@ -14,4 +14,4 @@ eureka:
     serviceUrl:
       defaultZone: http://discovery-eureka:8761/eureka/
 
-mockEnabled: true
+mockEnabled: false
