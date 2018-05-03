@@ -14,11 +14,7 @@ spring:
     password: msecom
     initialize: false
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+
 
 logging:
   level:
