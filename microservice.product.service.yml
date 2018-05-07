@@ -35,3 +35,5 @@ logging:
       BasicBinder: TRACE
       BasicExtractor: TRACE
     com.bdtv: DEBUG
+
+mockEnabled: false
